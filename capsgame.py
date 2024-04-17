@@ -31,19 +31,14 @@ def primeirodado ():
         print("você vai precisar rodar outro dado !")
     elif numero_aleatorio == 10:
         print("você vai precisar rodar outro dado !")
+    
 
-"""def segundarodada ():
+#segunda parte do jogo
+
+def final ():
     numero_aleatorio == numero_aleatorio2
-    numero_aleatorio =  random.randint (2,12)
-    print(numero_aleatorio)
-    if numero_aleatorio == numero_aleatorio2:
-        print("Você ganhou")
-        return 1
-    elif numero_aleatorio == 7:
-        print("você perdeu")
-        return 2
-    elif numero_aleatorio == 4 or 5 or 6 or 8 or 9 or 10:
-        print("Você precisa rodar de novo")"""
+    numero_aleatorio = random.randint (2,12)
+
 
 ############################################
 #implementação
